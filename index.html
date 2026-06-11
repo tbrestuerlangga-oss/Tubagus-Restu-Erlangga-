@@ -1,169 +1,146 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tubagus Restu Erlangga</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+    <title>Tubagus Restu Erlangga | Portfolio</title>
 
-body{
-    font-family:Arial, sans-serif;
-    background:#f4f4f4;
-    color:#333;
-}
-
-header{
-    background:#0077cc;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
-}
-
-nav{
-    margin-top:15px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 10px;
-    font-weight:bold;
-}
-
-.container{
-    width:90%;
-    max-width:900px;
-    margin:auto;
-    padding:20px;
-}
-
-.card{
-    background:white;
-    padding:25px;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
-    margin-bottom:20px;
-}
-
-.profile-img{
-    width:120px;
-    height:120px;
-    border-radius:50%;
-    object-fit:cover;
-    border:3px solid #0077cc;
-    display:block;
-    margin:0 auto 20px;
-}
-
-h2{
-    color:#0077cc;
-    margin-bottom:15px;
-    text-align:center;
-}
-
-ul{
-    padding-left:20px;
-}
-
-#sertifikat{
-    text-align:center;
-}
-
-#sertifikat a{
-    display:inline-block;
-    margin-top:15px;
-    padding:10px 20px;
-    background:#0077cc;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-}
-
-#sertifikat a:hover{
-    background:#005fa3;
-}
-
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:20px;
-}
-</style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>Tubagus Restu Erlangga</h1>
-    <p>Pelajar & Web Developer Pemula</p>
+    <header>
+        <nav>
+            <h2>TB. Restu</h2>
 
-    <nav>
-        <a href="#tentang">Tentang</a>
-        <a href="#skill">Skill</a>
-        <a href="#proyek">Proyek</a>
-        <a href="#sertifikat">Sertifikat</a>
-        <a href="#kontak">Kontak</a>
-    </nav>
-</header>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#certificate">Sertifikat</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="container">
+    <section class="hero">
 
-    <section class="card" id="tentang">
+        <div class="hero-text">
+            <h1>Hi, Saya <span>Tubagus Restu Erlangga</span></h1>
 
-        <img src="pm_1757610885209_cmp.jpg"
-             alt="Foto Profil"
-             class="profile-img">
+            <h3>Web Programmer</h3>
+
+            <p>
+                Mahasiswa Sistem Informasi Universitas Pamulang
+                yang memiliki minat pada pemrograman, desain,
+                dan pengembangan web.
+            </p>
+
+            <a href="#cv" class="btn">
+                Lihat CV
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/profile.jpg" alt="Foto Profil">
+        </div>
+
+    </section>
+
+    <section id="about">
 
         <h2>Tentang Saya</h2>
 
+        <div class="about-box">
+
+            <p>
+                halo Nama saya Tubagus Restu Erlangga, seorang individu yang memiliki minat besar dalam pengembangan diri dan eksplorasi di bidang teknologi serta kreativitas. Saya terbiasa belajar hal-hal baru secara mandiri dan berusaha mengembangkan kemampuan secara konsisten, baik melalui pengalaman langsung maupun pembelajaran dari berbagai sumber.
+Saya memiliki ketertarikan pada dunia digital dan terus berupaya meningkatkan keterampilan yang dapat mendukung perkembangan karier dan proyek yang saya jalani. Dengan pendekatan yang disiplin dan rasa ingin tahu yang tinggi, saya berkomitmen untuk menghasilkan karya yang bermanfaat dan berkualitas.
+
+                Saya memiliki pengalaman PKL,
+                administrasi, dan kursus Python.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skill-container">
+
+            <div class="skill-card">
+                Canva Design
+            </div>
+
+            <div class="skill-card">
+                Python Basic
+            </div>
+
+            <div class="skill-card">
+                Web Development
+            </div>
+
+            <div class="skill-card">
+                Game Development Basic
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="certificate">
+
+        <h2>Sertifikat Python</h2>
+
+        <div class="certificate-box">
+
+            <img src="assets/certificate.jpg"
+                 alt="Python Certificate">
+
+        </div>
+
+    </section>
+
+
+    <section id="cv">
+
+        <h2>Curriculum Vitae</h2>
+
+        <div class="cv-box">
+
+            <embed
+                src="assets/cv.pdf"
+                type="application/pdf"
+                width="100%"
+                height="700px">
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact">
+
+        <h2>Kontak</h2>
+
+        <p>Email: tbrestuerlangga@gmail.com</p>
+        <p>Telepon: 0857-8626-8677</p>
+
+    </section>
+
+    <footer>
         <p>
-            Halo! Saya Tubagus Restu Erlangga.
-            Saya tertarik pada teknologi, pemrograman,
-            pengembangan website, dan terus belajar
-            membuat proyek digital yang bermanfaat.
+            © 2025 Tubagus Restu Erlangga
         </p>
+    </footer>
 
-    </section>
-
-    <section class="card" id="skill">
-
-        <h2>Skill</h2>
-
-        <ul>
-            <li>desaign poster di canva</li>
-            <li>Dasar JavaScript</li>
-        </ul>
-
-    </section>
-
-    <section class="card" id="proyek">
-
-        <h2>Proyek</h2>
-
-        <p><strong>Website Portofolio Pribadi</strong></p>
-        <p>Membuat website portofolio menggunakan HTML dan CSS kemudian dipublikasikan melalui GitHub Pages.</p>
-
-    </section>
-
-    <section class="card" id="sertifikat">
-
-        <h2>🏆 Sertifikat</h2>
-
-        <p><strong>Python Start - Algorithmics</strong></p>
-
-        <p>
-            Sertifikat penyelesaian program Python Start.
-        </p>
-
-        <a href="Python_Starts_-_TB._RESTU_ERLANGGA.pdf" target="_blank">
+</body>
+</html>
             📄 Lihat Sertifikat PDF
         </a>
 
