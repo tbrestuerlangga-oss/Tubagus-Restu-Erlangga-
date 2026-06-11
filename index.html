@@ -1,62 +1,103 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tubagus Restu Erlangga</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tubagus Restu Erlangga</title>
 
-<style>
-body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    background:#f5f5f5;
-    text-align:center;
-}
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
 
-header{
-    background:#0077cc;
-    color:white;
-    padding:30px;
-}
+        body{
+            font-family:Arial, sans-serif;
+            background:#f4f4f4;
+            color:#333;
+        }
 
-.about{
-    background:white;
-    max-width:800px;
-    margin:30px auto;
-    padding:30px;
-    border-radius:10px;
-}
+        header{
+            background:#0077cc;
+            color:white;
+            text-align:center;
+            padding:40px 20px;
+        }
 
-.about img{
-    width:150px;
-    height:150px;
-    object-fit:cover;
-    border-radius:50%;
-    display:block;
-    margin:0 auto 20px auto;
-}
-</style>
+        .container{
+            max-width:900px;
+            margin:auto;
+            padding:20px;
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 3px 10px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+
+        .profile-img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            object-fit:cover;
+            border:4px solid #0077cc;
+            display:block;
+            margin:0 auto 20px auto;
+        }
+
+        h2{
+            color:#0077cc;
+            margin-bottom:15px;
+        }
+
+        p{
+            line-height:1.7;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+            background:#222;
+            color:white;
+        }
+    </style>
 </head>
-
 <body>
 
 <header>
     <h1>Tubagus Restu Erlangga</h1>
+    <p>Pelajar & Web Developer Pemula</p>
 </header>
 
-<div class="about">
+<div class="container">
 
-    <img src="foto.jpg" alt="Foto Profil">
+    <div class="card">
 
-    <h2>Tentang Saya</h2>
+        <img src="pm_1757610885209_cmp.jpg"
+             alt="Foto Tubagus Restu Erlangga"
+             class="profile-img">
 
-    <p>
-        Halo, saya Tubagus Restu Erlangga.
-        Saya tertarik pada teknologi, pemrograman,
-        dan pengembangan web.
-    </p>
+        <h2>Tentang Saya</h2>
+
+        <p>
+            Halo! Saya Tubagus Restu Erlangga.
+            Saya tertarik pada dunia teknologi,
+            pemrograman, pengembangan website,
+            dan terus belajar membuat proyek digital.
+        </p>
+
+    </div>
 
 </div>
+
+<footer>
+    © 2025 Tubagus Restu Erlangga
+</footer>
 
 </body>
 </html>
